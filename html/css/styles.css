@@ -1,0 +1,139 @@
+/* Estilos del contenido principal */
+main {
+    margin-top: 60px;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4d4d4d;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d4d4d;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4d4d4d;
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Estilos de la página de Servicios */
+  #servicios {
+    background-color: #f9f9f9;
+  }
+  
+  .servicios-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .servicios-item img {
+    width: 200px;
+    margin-right: 40px;
+  }
+  
+  .servicios-item h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4d4d4d;
+  }
+  
+  .servicios-item p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Estilos de la página de Contacto */
+  #contacto {
+    background-color: #f2f2f2;
+  }
+  
+  .formulario {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 40px;
+  }
+  
+  .formulario h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4d4d4d;
+  }
+  
+  .formulario p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4d4d4d;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .formulario input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Estilos de la página de Horarios */
+  #horarios {
+    background-color: #fff;
+  }
+  
+  .tabla-horarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+  }

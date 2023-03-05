@@ -1,0 +1,44 @@
+{
+  "name": "Mi gym PWA",
+  "short_name": "RPM GYM",
+  "description": "Una pwa de un gimnasio que recien inicia",
+  "icons": [
+  
+    {
+      "src": "/images/icono.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/perfil.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/cardio1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/gimnasio.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/gimnasio1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/pesas.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196f3"
+}
+
+  
