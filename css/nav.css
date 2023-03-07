@@ -1,0 +1,11 @@
+footer {
+    position: relative;
+    margin-top: 240px;
+    clear: both;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+  

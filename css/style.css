@@ -76,3 +76,123 @@ nav ul li {
   display: inline-block;
   margin-right: 10px;
 }
+/* Estilos globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F4F4F4;
+}
+
+a {
+  color: #FFB500;
+  text-decoration: none;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #232931;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFB500;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 20px;
+}
+/*color del menu*/
+.menu li a {
+  color: #027df1;
+}
+
+/* Estilos del contenido principal */
+main {
+  margin-top: 60px;
+  padding: 20px;
+}
+/*color de las etiquetas de informacion y detalles*/
+section {
+  background-color: #ffd503;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+  color: #232931;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+/*letras*/
+p {
+  line-height: 1.5;
+  color: #000000;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #68707a;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+nav.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+
+nav.footer a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+
